@@ -1,0 +1,47 @@
+*, html, body{
+  background-color: brown;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cinema {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .screen {
+    width: 1000px;
+    height: 600px;
+    background-color: black;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  
+  .control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  button {
+    width: 10%;
+    color: aliceblue;
+    border-style: dashed;
+    border-width: 3px;
+    background-color: rgb(15, 100, 12);
+    margin-left: 10px;
+  }
+
+  h1{
+    color: aliceblue;
+  }
+
+ select, option{
+    width: 20%;
+    color: aliceblue;
+    border-style: dashed;
+    border-width: 3px;
+    border-color: rgb(25, 40, 88);
+    background-color: rgb(2, 5, 26);
+  }
